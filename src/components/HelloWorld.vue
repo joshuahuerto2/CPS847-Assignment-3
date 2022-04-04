@@ -52,7 +52,7 @@ export default {
   },
   methods: {
   getTime: function() {
-    this.currentTime = format(new Date(), "yyyy-MM-dd HH:MM:SS");
+    this.currentTime = format(new Date(), "yyyy-MM-dd HH:mm:ss");
   }
 }
 }
