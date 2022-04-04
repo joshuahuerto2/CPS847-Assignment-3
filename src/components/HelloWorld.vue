@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h1>Current Time: {{ currentTime }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -34,11 +35,26 @@
 </template>
 
 <script>
+import { format } from 'date-fns'
+
 export default {
   name: 'HelloWorld',
+  data: function() {
+    return {
+      currentTime: ""
+    };
+  },
   props: {
     msg: String
+  },
+  beforeMount(){
+    this.getTime()
+  },
+  methods: {
+  getTime: function() {
+    this.currentTime = format(new Date(), "yyyy-MM-dd HH:MM:SS");
   }
+}
 }
 </script>
 
