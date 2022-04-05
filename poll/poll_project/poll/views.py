@@ -48,5 +48,8 @@ def vote(request, poll_id):
     return render(request, 'poll/vote.html', context)
 
 def results(request, poll_id):
-    context = {}
+    poll = Poll.objects.get(pk=poll_id)
+    context = {
+        'poll' : poll
+    }
     return render(request, 'poll/results.html', context)
