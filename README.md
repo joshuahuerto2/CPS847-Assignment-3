@@ -1,34 +1,26 @@
-# assignment-3
+# CPS 847 Assignment3
 
-## Project setup
-```
-npm install
-```
+### Vue Project Source Code
+The root folder containing the Vue source code is 
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
+src/
 ```
 
-### Compiles and minifies for production
+### Django Project Source Code
+The root folder containing the Django source code is
+
 ```
-npm run build
+poll/
+```
+### Vue App URL
+
+```
+192.168.54.145:8080
 ```
 
-### Run your unit tests
-```
-npm run test:unit
-```
+### Django App URL
 
-### Run your end-to-end tests
 ```
-npm run test:e2e
+192.168.54.145:8000
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
