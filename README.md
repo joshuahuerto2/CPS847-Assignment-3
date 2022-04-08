@@ -14,6 +14,16 @@ poll/
 
 ### SQL Scripts
 
+Original table script can be found at this URL:
+```
+https://github.com/joshuahuerto2/CPS847-Assignment-3/blob/feat/poll-app/poll/poll_project/poll/poll.sql
+```
+
+Migrated table script can be found at this URL:
+```
+https://github.com/joshuahuerto2/CPS847-Assignment-3/blob/feat/poll-app/poll/poll_project/poll/migrations/0001_initial.py
+```
+
 ### Vue App URL
 ```
 192.168.54.145:8080
