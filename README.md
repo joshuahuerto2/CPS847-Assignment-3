@@ -11,6 +11,9 @@ The root folder containing the Django source code is
 ```
 poll/
 ```
+
+### SQL Scripts
+
 ### Vue App URL
 ```
 192.168.54.145:8080
